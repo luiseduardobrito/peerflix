@@ -1,7 +1,7 @@
 var path = require('path'),
 		express = require('express'),
 		app = express(),
-		port = 7777;
+		port = process.env.PORT || 7777;
 
 // CORS middleware
 var allowCrossDomain = function(req, res, next) {
