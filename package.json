@@ -4,11 +4,12 @@
   "license": "MIT",
   "repository": "git://github.com/mafintosh/peerflix.git",
   "bin": {
-    "peerflix": "./app.js"
+    "peerflix": "./script/cmd.js"
   },
   "dependencies": {
     "airplay-js": "^0.2.0",
     "clivas": "^0.1.4",
+    "express": "^4.8.2",
     "mime": "^1.2.11",
     "network-address": "0.0.4",
     "numeral": "^1.5.3",
@@ -17,6 +18,7 @@
     "range-parser": "^1.0.0",
     "rc": "^0.4.0",
     "read-torrent": "^0.2.0",
+    "socket.io": "^1.0.6",
     "torrent-stream": "^0.13.5",
     "windows-no-runnable": "~0.0.6"
   }

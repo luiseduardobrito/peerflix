@@ -5,6 +5,16 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="angular-ui-bootstrap-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-ui-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angularjs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="googlemaps-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="gruntjs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="highcharts-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mocha-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="requirejs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="should-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="peerflix node_modules" level="project" />
   </component>
 </module>
 

@@ -8,7 +8,7 @@ var os = require('os');
 var address = require('network-address');
 var readTorrent = require('read-torrent');
 var proc = require('child_process');
-var peerflix = require('./peerflix');
+var peerflix = require('../src/peerflix');
 
 var path = require('path');
 
@@ -38,7 +38,7 @@ var argv = rc('peerflix', {}, optimist
 	.argv);
 
 if (argv.version) {
-	console.error(require('./package').version);
+	console.error(require('./../package').version);
 	process.exit(0);
 }
 
