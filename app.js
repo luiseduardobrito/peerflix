@@ -8,7 +8,7 @@ var os = require('os');
 var address = require('network-address');
 var readTorrent = require('read-torrent');
 var proc = require('child_process');
-var peerflix = require('./');
+var peerflix = require('./peerflix');
 
 var path = require('path');
 
@@ -102,7 +102,7 @@ var ontorrent = function(torrent) {
 	var active = function(wire) {
 		return !wire.peerChoking;
 	};
-	
+
 	[].concat(argv.peer || []).forEach(function(peer) {
 		engine.connect(peer);
 	})
