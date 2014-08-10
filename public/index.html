@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>peercast</title>
+	<link href="http://vjs.zencdn.net/4.7/video-js.css" rel="stylesheet">
+</head>
+<body style="margin: 0px !important; background-color: #010101">
+	<video id="example_video_1" class="video-js vjs-default-skin"
+				 controls preload="auto" width="100%" height="100%"
+				 data-setup='{ "controls": true, "autoplay": true, "preload": "auto" }'
+				 style="width: 100%; height: 100%; position: fixed">
+		<source src="http://192.168.0.26:8888" type='video/mp4' />
+		<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
+			<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+		</p>
+		<track kind="captions" src="subtitles.srt" srclang="en" label="English" default>
+	</video>
+	<script src="http://vjs.zencdn.net/4.7/video.js"></script>
+</body>
+</html>
