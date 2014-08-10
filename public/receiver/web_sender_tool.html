@@ -103,12 +103,7 @@ limitations under the License.
 
         function loadMediaOntoReceiver() {
             var url = $('#mediaurl').val();
-            var ext = url.split('.').pop();
-            var mime = 'unknown';
-            if(url !== ext) {
-                // has extension
-                mime = window.mimeTypes[ext]
-            }
+            var mime = 'mp4';
             var mediaInfo = new chrome.cast.media.MediaInfo(url, mime);
             console.log("## MediaInfo('"+url+"', '"+mime+"')");
             var loadRequest = new chrome.cast.media.LoadRequest(mediaInfo);

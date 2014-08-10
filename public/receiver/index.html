@@ -28,7 +28,6 @@ It is useful for learning the basic concepts of the system.
 	<script type="text/javascript"
 					src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js">
 	</script>
-	<script src="http://popcornjs.org/code/dist/popcorn-complete.js"></script>
 
 	<style type="text/css">
 		@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
@@ -51,17 +50,6 @@ It is useful for learning the basic concepts of the system.
 			overflow: hidden !important;
 		}
 	</style>
-
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-
-			var popcorn = Popcorn("#player");
-
-			popcorn.autoplay(true);
-			popcorn.controls(true);
-
-		}, false);
-	</script>
 </head>
 <body>
 	<video id="player" data-timeline-sources="subtitles/subtitle.srt">
